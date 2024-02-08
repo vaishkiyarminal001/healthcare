@@ -1,0 +1,104 @@
+.appointment-form-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(43, 50, 53); 
+    color: #fff; 
+  }
+  
+  .legal-siteTitle {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff; 
+    text-decoration: none;
+  }
+  
+  .form-container {
+  
+    background-color: #29282a; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fffbfb; /* Text color */
+  }
+  
+  .form-content {
+    display: grid;
+    gap: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #faf1f1; /* Text color */
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #363535 !important; 
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    background-color: #5c5f5f !important; 
+    color: #fff; /* Text color */
+  }
+  
+  .text-appointment-btn {
+    background-color: #585d5f !important;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .text-appointment-btn:hover {
+    background-color: #4b5861 !important;
+    border-color: #faf1f1 !important;
+  }
+  
+  .success-message {
+    margin-top: 15px;
+    color: #add8af;
+    display: none;
+    margin-left:10px;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 5px;
+  }
+  
+  .legal-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc; 
+  }
+  
+  .appointment-form-section a {
+    text-decoration: none;
+    color: #eff1f4; /* Link color */
+    margin-left: 30%;
+  }
+  
+  .appointment-form-section a:hover {
+    text-decoration: none; 
+  }
+  .doctor-photo {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }

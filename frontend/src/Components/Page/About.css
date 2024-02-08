@@ -1,0 +1,141 @@
+.about-section {
+    background:linear-gradient(to right, #200a35, #200c32, black); 
+    color: #fff;
+    padding: 100px 0;
+  }
+  #heading{
+    font-size: 2.5rem;
+  }
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #ddd;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .about-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .about-details div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #3c819f;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .about-details div:hover {
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+  
+  .team-details {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    color: #ddd;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Info Section */
+  .Info-section {
+    margin-top: 30px;
+  }
+  
+  .small-card {
+    display: flex;
+    background-color: transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left:50px;
+  }
+  
+  .founder {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-left:130px
+  }
+  
+  .co-founder {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-left:140px
+  }
+  
+  .founder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .co-founder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  
+  .co-founder-text {
+    padding: 15px;
+   
+  }
+  .founder-text{
+    padding: 15px;
+  
+  
+  }
+  
+  .founder-text p {
+    font-size: 15px;
+    color: #ddd;
+  }
+  
+  .co-founder-text p {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .co-founder-text a {
+    text-decoration: none;
+    color: #f2f3f5;
+  }
+  
+  .co-founder-text a:hover {
+    text-decoration: none;
+    color: #091803;
+  }

@@ -1,0 +1,161 @@
+.review-section {
+    padding: 90px 0;
+    text-align: center;
+    background:linear-gradient(to right, #200a35, #200c32, black); 
+    color: #f1f4f2; /* Text color */
+  }
+  
+  .text-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .txt-title {
+    font-size: 46px;
+    color: #ffffff !important;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-num {
+    font-size: 36px;
+    color: #0dbece;
+  }
+  
+  .text-desc {
+    font-size: 25px;
+    color: #61c5ed; 
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .text-format {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .quote1,
+  .quote2 {
+    font-size: 36px;
+    color: #fafafa;
+  }
+  
+  .review {
+    font-size: 22px;
+    font-style: italic;
+    color: #ffffff; /* Light text color */
+  }
+  
+  .authors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .names {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .reviewer-name {
+    font-size: 18px;
+    color: #e8f680;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .reviewer-place {
+    font-size: 16px;
+    color: #80f6e4; 
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .rw-btns {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rw-next-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #4698a4;
+    color: #c4dfd1;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .rw-next-btn:hover {
+    background-color: #2dc1ea;
+  }
+  
+  /* Circular Images */
+  .reviewer-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  /* Add to Review.css */
+  .review-card {
+    border: 1px solid #addbe3;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #5d89a3 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  .review-card .text-format {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .review-card .quote1,
+  .review-card .quote2 {
+    font-size: 36px;
+    color: #555;
+  }
+  
+  .review-card .authors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .review-card .names {
+    display: flex;
+    align-items: center;
+  }
+  
+  .review-card .reviewer-name {
+    font-size: 18px;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  .review-card .reviewer-place {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .review-card .reviewer-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
